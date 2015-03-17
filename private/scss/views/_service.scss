@@ -1,0 +1,64 @@
+.page--service{
+	.col-4-12{
+		margin-top: 40px;
+		ul{
+			width: 221px;
+			li{
+			padding-top: 7px;
+			padding-bottom: 10px;
+			border-bottom:1px solid #eee;
+			a{
+				&.active{
+					color:#918C00
+				}
+				font-size: 18px;
+				color: #999999;
+				font-family: 'robotoslab-bold';
+				font-weight:normal;
+			}
+
+		}
+		}
+		
+	}
+	.col-4-12{
+		padding-left: 10px;
+	}
+	.col-8-12{
+
+		margin-top: 30px;
+		h4{
+			font-weight:normal;
+			font-size: 28px;
+			color: #918C00;
+			margin: 3px 0px;
+			font-family: 'robotoslab-bold';
+		}
+		p{
+			padding-left: 10px;
+			margin-bottom: 23px;
+			line-height: 1.2em;
+		}
+		ul{
+			padding-left: 40px;
+			line-height: 1.3em;
+			margin-bottom: 20px;
+			 list-style-image: url('/images/list.png');
+			li{
+				margin-top:10px;
+				
+				color: #858585;
+				
+			}
+		}
+
+		.service--video{
+			width: 553px;
+			height: 360px;
+			background-color: #858585;
+		}
+
+		margin-bottom: 110px;
+	}
+
+}

@@ -1,0 +1,65 @@
+.page--home{
+	#left-slider{
+		position: absolute;
+		z-index: 99999;
+		top:170px;
+
+	}
+	#right-slider{
+		position: absolute;
+		left:1392px;
+		top:170px;
+		z-index: 99999;
+	}
+
+	.home--intro-center{
+	    text-align: center;
+	    border-top:1px solid #eee;
+
+	  	h6{
+	  		padding:59px 147px 0px 149px;
+
+	  		font-size: 22px;
+	  		color: #202020;
+	  	}
+	  	p{
+	  		line-height: 19px;
+	  		font-size: 16px;
+	  		color:#858585;
+	  		
+	  		padding: 20px 158px 56px 158px;
+	  	}
+	    @include center(937px);
+	}
+	.home--service-title{
+		text-align: center;
+		height: 121px;
+		
+		background-color: #B2C19A;	
+
+			
+
+		h2{
+			font-size: 34px;
+			color:#ffffff;
+			padding-top: 35px;
+		}
+	}
+	.home--service-content{
+		h1{
+			text-align: center;
+			font-size: 100px;
+			color: #ffffff;
+			line-height: 1.05em;
+			text-transform: uppercase;
+			width: 196px;
+			height: 309px;
+			margin: 38px auto;
+
+		}
+
+	}
+	
+
+
+}

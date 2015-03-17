@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('/fonts/Bebas/Bebas.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('/fonts/lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoslab-regular';
+    src: url('/fonts/roboto-slab/RobotoSlab-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoslab-bold';
+    src: url('/fonts/roboto-slab/RobotoSlab-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titillium-regular';
+    src: url('/fonts/Titillium/Titillium-Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium-bold';
+    src: url('/fonts/Titillium/Titillium-Bold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium-regular-italic';
+    src: url('/fonts/Titillium/Titillium-RegularItalic.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium-semibold';
+    src: url('/fonts/Titillium/Titillium-Semibold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titillium-semibold';
+    src: url('/fonts/Titillium/Titillium-Semibold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'opensans-bold';
+    src: url("/fonts/Open-Sans/OpenSans-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{
+	font-family: 'robotoslab-regular';
+
+}
+
+h1{
+	font-family: 'bebas';
+}
+
+h2{
+	font-family: 'bebas';
+}
+
+h3{
+
+}
+
+h4{
+	 font-family: 'robotoslab-bold';
+}
+
+h5{
+
+}
+
+h6{
+	 font-family: 'robotoslab-bold';
+}
+
+p{
+	font-family: 'robotoslab-regular';
+	font-size: 16px;
+	color: #858585;
+	
+	strong{
+		
+	}
+	
+}
+
+ul{
+
+}
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}

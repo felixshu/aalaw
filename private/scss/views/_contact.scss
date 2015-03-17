@@ -1,0 +1,102 @@
+.page--contact{
+
+	font-family: 'robotoslab-regular';
+	.contact--title{
+		margin-bottom: 30px;
+
+	}
+	.col-4-12{
+		padding-left:10px;
+	}
+
+	#map{
+		margin-top: 90px;
+	}
+	#submit{
+		position:relative;
+		right:4px;
+		background-color: #918E00;
+		font-family:'Arial';
+		color:#fff;
+		font-size:16px;
+		padding:5px 12px 10px 30px;
+		float:right;
+		border-radius:4px;
+		height:43px;
+		width:148px;
+		img{
+			top:5px;
+			position:relative;
+			left:20px;
+		}
+	}
+	.form{
+		h4{
+			font-weight:normal;
+			font-size: 28px;
+			color: #918C00;
+			margin-bottom: 22px;
+			font-family: 'robotoslab-bold';
+
+		}
+	
+	}
+	label{
+		font-size: 16px;
+		color:#666;
+		
+
+	}
+	input{
+		border:1px solid #ccc;
+		width: 300px;
+		height: 41px;
+		margin-top: 2px;
+		margin-bottom: 18px;
+		padding-left:3px;
+		&:focus{
+			outline-width:0;
+		}
+	}
+	textarea{
+		margin-top: 2px;
+		margin-bottom: 18px;
+		border:1px solid #ccc;
+		width: 625px;
+		height: 120px;
+		padding:5px 5px;
+		&:focus{
+			outline-width:0;
+		}
+	}
+
+	.contact--block{
+		margin-bottom: 13px;
+		.contact--block-header{
+			h4{
+				font-family: 'robotoslab-bold';
+				font-size: 28px;
+				color: #918C00;
+				font-weight:normal;
+			}
+			
+			margin-bottom: 2px;
+
+		}
+		.contact--block-content{
+			p{
+				font: 16px;
+				color: #858585;
+			}
+			a{
+				font: 16px;
+				color: #858585;
+			}
+		
+		}
+
+	}
+
+
+
+}

@@ -1,0 +1,20 @@
+{
+    "minimum-stability": "dev",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "http://satis.hyperion.cloud.brownpaperbag.co.nz"
+      }
+    ],
+    "require": {
+        "brownpaperbag/cms": "dev-develop",
+        "brownpaperbag/cms-contact": "dev-develop",
+        "brownpaperbag/cms-google-analytics": "dev-develop"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "classes/",
+            "Site": "controllers/"
+        }
+    }
+}

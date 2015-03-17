@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.push {
+	min-height: 100%;
+	margin-bottom: -219px;
+	padding-top: 10px;
+}
+.push:after {
+
+	content: "";
+	display: block;
+}
+.footer, .push:after {
+	height: 219px;
+}

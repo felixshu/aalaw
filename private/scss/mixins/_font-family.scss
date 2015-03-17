@@ -1,0 +1,14 @@
+/* centralise your fonts here */
+
+@mixin serif($normal:false, $heading: false){
+    @if $normal { 
+        font-family: 'font-name', Georgia, serif;
+        } @else {
+        font-family: 'alt-font-name', Helvetica, Arial, san-serif;
+    }
+    @if $heading { 
+    	font-weight: 700;
+    } @else {
+    	font-weight: 400;
+    }
+}

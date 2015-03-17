@@ -1,0 +1,167 @@
+.footer{
+	background-color: #212121;
+	padding-top: 50px;
+	height: 404px;
+	.footer--top{
+		padding-bottom: 102px;
+		
+
+
+	.col-3-12{
+		font-family: 'robotoslab-bold';
+		line-height:1.8em;
+		position:relative;
+		top:-4px;
+		left:9px;
+		li{
+			margin-bottom:10px;
+			a{
+				text-transform: uppercase;
+				font-size: 18px;
+				color: #ffffff;
+
+			}
+		
+		}
+	}
+
+	.col-2-12{
+		position:relative;
+		top:0px;
+		left:12px;
+		li{
+			a{
+
+				line-height:1.8em;
+				color: #999999;
+				font-family: 'titillium-regular';
+			}
+			
+			&.title{
+				text-transform: uppercase;
+				color: #ffffff;
+				margin-bottom:4px;
+				 font-family: 'robotoslab-bold';
+
+			}
+
+		}
+	}
+	.col-7-12{
+		position:relative;
+		top:10px;
+		left:-8px;
+		font-size:18px;
+		line-height:22px;
+		p{
+			top:5px;
+			position:relative;
+			font-family: 'titillium-regular';
+		}
+	}
+	}
+	p{
+		color: #ffffff;
+		text-transform: uppercase;
+	}
+	
+	
+}
+
+.footer--detail{
+	border-top:1px solid #eee;
+	padding-top:80px;
+	padding-bottom: 76px;
+	margin:0px 0px 0px 0px;
+	background: url('/images/home--bg.png') no-repeat scroll left bottom;
+
+		h4{
+			font-weight: normal;
+			font-size: 18px;
+			color: #918D00;
+			margin-bottom: 15px;
+		}
+		p{
+			margin-bottom: 18px;
+			line-height:1.2em;
+		}
+		.col-4-12{
+			position: relative;
+			top:-5px;
+			left: 10px;
+
+		}
+		.col-6-12{
+			border-left: 1px solid #ccc;
+			padding-left: 35px;
+			position: relative;
+			left: -15px;
+			top:-2px;
+		}
+		.col-2-12{
+			position: relative;
+			top:21px;
+			left: 37px;
+		}
+		
+		input{
+			position: relative;
+			background:#EEEEEE;
+			color:#AAAAAA;
+			padding-left: 13px;
+			font-size: 16px;
+			font-family: 'titillium-regular-italic';
+			width: 266px;
+			height: 45px;
+			border-radius: 4px;
+			z-index: 20;
+			&:focus{
+				  outline-width: 0;
+			}
+		}
+		a{
+			position: relative;
+			top:17px;
+			left: -94px;
+			
+			width: 40px;
+			height: 43px;
+			overflow: hidden;
+		
+			z-index: 10;
+
+		}
+	}
+	
+.footer--tell{
+	background-color: #B2C19A;	
+	height: 121px;
+	h2{
+		font-weight: normal;
+		padding-top: 38px;
+		text-align: center;
+		font-size: 34px;
+		color: #ffffff;
+		font-family: 'robotoslab-bold';
+		span{
+			color: #1F1F1F;
+			text-decoration: underline;
+		}
+	}
+}
+.footer--bpb{
+	font-family: 'lato';
+	font-size: 11px;
+	color: #999999;
+	border-top: 1px solid #444444;
+	padding-top: 12px;
+	a{
+		color: #999999;
+		text-decoration: none;
+	}
+	
+}
+.right{
+		text-align: right;
+		font-family: 'roboto-regular';
+	}

@@ -1,0 +1,11 @@
+{
+  "name": "Site Template",
+  "directory": "public/",
+  "dependencies": {
+    "angular": "latest",
+    "angular-resource": "latest",
+    "angular-busy": "latest",
+    "ng-application-bootstrap": "latest",
+    "ng-table": "latest"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+
+    <?= Site\Meta::title($this); ?>
+    <?= Site\Meta::keywords($this); ?>
+    <?= Site\Meta::description($this); ?>
+
+    <!--[if IE 7 ]>
+    <link rel="stylesheet" href="/css/ie7.css">
+    <![endif]-->
+    <!--[if IE 8 ]>
+    <link rel="stylesheet" href="/css/ie8.css">
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="wrapper">
+        <?php echo $this->layout()->content; ?>
+    </div>
+    <div class='footer'>
+      <div class="container">
+        <div class="footer-left"></div>
+        <div class='footer-right'>
+          Site by { <a href='http://brownpaperbag.co.nz' target='_blank'>brownpaperbag</a> }
+        </div>
+      </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <?= CMS\Assets::getHtml('js'); ?>
+    <?php if (GOOGLE_ANALYTICS_TRACKING): ?>
+        <?= GoogleAnalytics_Tracking::generate(); ?>
+    <?php endif; ?>
+  </body>
+</html>
+

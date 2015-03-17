@@ -1,0 +1,81 @@
+.ir{
+	display: block;
+	text-indent: -9999px;
+	text-transform: capitalize;
+}
+
+.fouc{
+	visibility: hidden;
+}
+.flexslider{
+	max-width: 1440px;
+	height: 440px;
+}
+
+.business{
+	background: url('/images/home--business.png') no-repeat scroll center center;
+	margin-bottom: 80px;
+	height: 400px;
+}
+.property{
+	background: url('/images/home--property.png') no-repeat scroll center center;
+	margin-bottom: 80px;
+	height: 400px;
+}
+.court{
+	background: url('/images/home--court2.png') no-repeat scroll center center;
+	margin-bottom: 80px;
+	height: 400px;
+}
+.family{
+	background: url('/images/home--family.png') no-repeat scroll center center;
+	margin-bottom: 80px;
+	height: 400px;
+}
+
+.flexslider .slides li {
+    position:relative;
+}
+
+.flex-caption {
+	
+	width: 556px;
+	height: 420px;
+    position:absolute;
+    left:330px;
+    right:0;
+    bottom:0;
+    top: 145px;
+    background:transparent; /* whatever you want */    
+    z-index:1;
+    padding:5px;
+    a{
+    	border-radius: 3px;
+    	background: url('/images/contact--submit.png') no-repeat 95% 50%;
+    	width: 173px;
+    	position: relative;
+    	top: 46px;
+    	padding: 12px 42px 12px 12px;
+
+    	background-color: #918E00;
+    	font-size: 16px;
+    	font-family: 'titillium-regular-italic';
+    }
+   h3,a,p{
+		color: #fff;
+   }
+   h3{
+   	 font-family: 'bebas';
+   	 font-size: 38px;
+   	 font-weight: normal;
+   	 margin-bottom: 15px;
+   }
+	p{
+		font-family: 'robotoslab-bold';
+		font-size: 20px;
+		line-height: 1.2em;
+		 font-weight: normal;
+	}
+}
+ 
+

@@ -1,0 +1,19 @@
+<div class="exception container">
+    <h1><?= $this->exception->getCode() . ': the page you are looking for cannot be found' ?></h1>
+    <?php if(isset($this->exception) && User::getCurrent()): ?>
+        <h3>Exception information:</h3>
+        <p>
+          <b>Message:</b> <?= $this->exception->getMessage() ?>
+        </p>
+
+        <h3>Stack trace:</h3>
+        <pre><?= $this->exception->getTraceAsString() ?></pre>
+
+        <h3>Request Parameters:</h3>
+        <pre><?= $this->escape(var_export($this->request->getParams(), true)) ?></pre>
+    <?php endif ?>
+
+    <?php if (User::getCurrent()): ?>
+        <a href="/logout">Logout</a>
+    <?php endif; ?>
+</div>

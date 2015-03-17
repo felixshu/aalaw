@@ -1,0 +1,83 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 1440px;
+}
+
+.row {
+    @include center(960px);
+    clear: both;
+    position: relative;
+    @include cf;
+}
+
+
+.row--full, .row--form {
+    @include cf;
+    position: relative;
+}
+
+
+.col-3-9{
+    @include column(3/9);
+
+}
+.col-6-9{
+    @include column(6/9);
+}
+
+
+
+.col-1-2{
+    @include column(1/2);
+}
+
+.col-2-12{
+    @include column(2/12);
+}
+.col-3-12{
+   @include span(1/4);
+}
+.col-3-12-1{
+    @include column(3/12);
+}
+.col-4-12 {
+    @include column(4/12);  
+
+}
+.col-6-12{
+    @include column(6/12);
+}
+.col-7-12{
+    @include column(7/12);
+}
+
+
+
+.col-8-12 {
+    @include column(8/12);
+}
+
+
+
+.col-9-12 {
+    @include column(9/12);
+}
+
+
